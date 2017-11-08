@@ -12,6 +12,7 @@
 		EE0D19D71FA221AD0098D8F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D51FA221AD0098D8F7 /* Main.storyboard */; };
 		EE0D19D91FA221AD0098D8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */; };
 		EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */; };
+		EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0D19DB1FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE0D19DD1FA221AD0098D8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		EE0D19D01FA221AD0098D8F7 /* Shujaet_CSP */ = {
 			isa = PBXGroup;
 			children = (
+				EE5A15F11FB3556B00EB041D /* Controller */,
 				EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */,
 				EE0D19D31FA221AD0098D8F7 /* ViewController.swift */,
 				EE0D19D51FA221AD0098D8F7 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				EE0D19DD1FA221AD0098D8F7 /* Info.plist */,
 			);
 			path = Shujaet_CSP;
+			sourceTree = "<group>";
+		};
+		EE5A15F11FB3556B00EB041D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */,
+				EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */,
 				EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
