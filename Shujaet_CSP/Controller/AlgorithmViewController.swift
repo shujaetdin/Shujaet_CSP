@@ -8,28 +8,47 @@
 
 import UIKit
 
-class AlgorithmViewController: UIViewController {
+ public class AlgorithmViewController: UIViewController {
+ {
+    //Mark; Data members
+    @IBoutlet weak var algorithText: UILabl!
+    
+    private funcsetupAlgorithm() -> Void  }
+{
+    var algorithmSteps : [String] = []
+    
+    //TODO: Defne algorithm and all steps
+    let algorithm :String = "These are the inructions to create a project in Java using Eclipse and Github \n"
+    let stepOne :String = "First, open java eclipse and create a new project"
+    let stepTwo :String = "Second, set the settings on the roject and make sure it is in the correct format and folder"
+    let stepThree :String = "Third, create classes, and packages as you go along"
+    let stepFour :String = "Fourth, create a controller package and make sure you have imported all that need to be imported. "
+    let stepFive :String = "Latsly, Figure "
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    // TODO Finish adding all steps to the algorithm
+    algorithmsSteps = [stepOne, stepTwo, stepThree]
 
-        // Do any additional setup after loading the view.
+    let attributesDictionary =  [NSAttributedStringKey.font : agorithmText.font]
+    let fullttrubutedString = NSmutableAttributedString(string: algorithm, attributes: attributesDictionary)
+
+    for step in algorithmSteps
+{
+    let bullet :String =
+    let formattedStep :String = "\n\(bullet) \(step)"
+    let attribuStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
+    let paragraphStyle = createParagraphStyle()
+    
+    attributed SingStep.addAttributes([NSAttributedStringKey.paragrpahStyle : paragraphStyle], range: NSMakeRange(0, attributeStringStep.length))
+    
+    fullAttributedString.appen(attributedStringStep)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    algorithmxt.atributedText  fullAttributedString
+}
     
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
-}
+
+
+
+

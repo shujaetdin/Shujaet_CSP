@@ -7,29 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */; };
-		EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D19D31FA221AD0098D8F7 /* ViewController.swift */; };
-		EE0D19D91FA221AD0098D8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */; };
-		EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */; };
-		EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */; };
-		EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D51FA221AD0098D8F7 /* Main.storyboard */; };
-		EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */; };
+		EE9E50E71FB607C1009059B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50E61FB607C1009059B5 /* AppDelegate.swift */; };
+		EE9E50E91FB607C1009059B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50E81FB607C1009059B5 /* ViewController.swift */; };
+		EE9E50EC1FB607C1009059B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9E50EA1FB607C1009059B5 /* Main.storyboard */; };
+		EE9E50EE1FB607C1009059B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9E50ED1FB607C1009059B5 /* Assets.xcassets */; };
+		EE9E50F11FB607C1009059B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9E50EF1FB607C1009059B5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE0D19CE1FA221AD0098D8F7 /* Shujaet_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shujaet_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EE0D19D31FA221AD0098D8F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EE0D19D61FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE0D19DB1FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE0D19DD1FA221AD0098D8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
-		EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		EE9E50E31FB607C1009059B5 /* ImpactCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImpactCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9E50E61FB607C1009059B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9E50E81FB607C1009059B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9E50EB1FB607C1009059B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9E50ED1FB607C1009059B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9E50F01FB607C1009059B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9E50F21FB607C1009059B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE0D19CB1FA221AD0098D8F7 /* Frameworks */ = {
+		EE9E50E01FB607C1009059B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,82 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE0D19C51FA221AD0098D8F7 = {
+		EE9E50DA1FB607C1009059B5 = {
 			isa = PBXGroup;
 			children = (
-				EE0D19D01FA221AD0098D8F7 /* Shujaet_CSP */,
-				EE0D19CF1FA221AD0098D8F7 /* Products */,
+				EE9E50E51FB607C1009059B5 /* ImpactCSP */,
+				EE9E50E41FB607C1009059B5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE0D19CF1FA221AD0098D8F7 /* Products */ = {
+		EE9E50E41FB607C1009059B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE0D19CE1FA221AD0098D8F7 /* Shujaet_CSP.app */,
+				EE9E50E31FB607C1009059B5 /* ImpactCSP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE0D19D01FA221AD0098D8F7 /* Shujaet_CSP */ = {
+		EE9E50E51FB607C1009059B5 /* ImpactCSP */ = {
 			isa = PBXGroup;
 			children = (
-				EE5A15F11FB3556B00EB041D /* Controller */,
-				EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */,
-				EE0D19D31FA221AD0098D8F7 /* ViewController.swift */,
-				EE0D19D51FA221AD0098D8F7 /* Main.storyboard */,
-				EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */,
-				EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */,
-				EE0D19DD1FA221AD0098D8F7 /* Info.plist */,
+				EE9E50E61FB607C1009059B5 /* AppDelegate.swift */,
+				EE9E50E81FB607C1009059B5 /* ViewController.swift */,
+				EE9E50EA1FB607C1009059B5 /* Main.storyboard */,
+				EE9E50ED1FB607C1009059B5 /* Assets.xcassets */,
+				EE9E50EF1FB607C1009059B5 /* LaunchScreen.storyboard */,
+				EE9E50F21FB607C1009059B5 /* Info.plist */,
 			);
-			path = Shujaet_CSP;
-			sourceTree = "<group>";
-		};
-		EE5A15F11FB3556B00EB041D /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */,
-				EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */,
-			);
-			path = Controller;
+			path = ImpactCSP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE0D19CD1FA221AD0098D8F7 /* Shujaet_CSP */ = {
+		EE9E50E21FB607C1009059B5 /* ImpactCSP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE0D19E01FA221AD0098D8F7 /* Build configuration list for PBXNativeTarget "Shujaet_CSP" */;
+			buildConfigurationList = EE9E50F51FB607C1009059B5 /* Build configuration list for PBXNativeTarget "ImpactCSP" */;
 			buildPhases = (
-				EE0D19CA1FA221AD0098D8F7 /* Sources */,
-				EE0D19CB1FA221AD0098D8F7 /* Frameworks */,
-				EE0D19CC1FA221AD0098D8F7 /* Resources */,
+				EE9E50DF1FB607C1009059B5 /* Sources */,
+				EE9E50E01FB607C1009059B5 /* Frameworks */,
+				EE9E50E11FB607C1009059B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Shujaet_CSP;
-			productName = Shujaet_CSP;
-			productReference = EE0D19CE1FA221AD0098D8F7 /* Shujaet_CSP.app */;
+			name = ImpactCSP;
+			productName = ImpactCSP;
+			productReference = EE9E50E31FB607C1009059B5 /* ImpactCSP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE0D19C61FA221AD0098D8F7 /* Project object */ = {
+		EE9E50DB1FB607C1009059B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Din, Shujaet";
 				TargetAttributes = {
-					EE0D19CD1FA221AD0098D8F7 = {
+					EE9E50E21FB607C1009059B5 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = EE0D19C91FA221AD0098D8F7 /* Build configuration list for PBXProject "Shujaet_CSP" */;
+			buildConfigurationList = EE9E50DE1FB607C1009059B5 /* Build configuration list for PBXProject "ImpactCSP" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,56 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = EE0D19C51FA221AD0098D8F7;
-			productRefGroup = EE0D19CF1FA221AD0098D8F7 /* Products */;
+			mainGroup = EE9E50DA1FB607C1009059B5;
+			productRefGroup = EE9E50E41FB607C1009059B5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE0D19CD1FA221AD0098D8F7 /* Shujaet_CSP */,
+				EE9E50E21FB607C1009059B5 /* ImpactCSP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE0D19CC1FA221AD0098D8F7 /* Resources */ = {
+		EE9E50E11FB607C1009059B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */,
-				EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */,
-				EE0D19D91FA221AD0098D8F7 /* Assets.xcassets in Resources */,
+				EE9E50F11FB607C1009059B5 /* LaunchScreen.storyboard in Resources */,
+				EE9E50EE1FB607C1009059B5 /* Assets.xcassets in Resources */,
+				EE9E50EC1FB607C1009059B5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE0D19CA1FA221AD0098D8F7 /* Sources */ = {
+		EE9E50DF1FB607C1009059B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */,
-				EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */,
-				EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */,
-				EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */,
+				EE9E50E91FB607C1009059B5 /* ViewController.swift in Sources */,
+				EE9E50E71FB607C1009059B5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EE0D19D51FA221AD0098D8F7 /* Main.storyboard */ = {
+		EE9E50EA1FB607C1009059B5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE0D19D61FA221AD0098D8F7 /* Base */,
+				EE9E50EB1FB607C1009059B5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */ = {
+		EE9E50EF1FB607C1009059B5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EE0D19DB1FA221AD0098D8F7 /* Base */,
+				EE9E50F01FB607C1009059B5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -179,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EE0D19DE1FA221AD0098D8F7 /* Debug */ = {
+		EE9E50F31FB607C1009059B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		EE0D19DF1FA221AD0098D8F7 /* Release */ = {
+		EE9E50F41FB607C1009059B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -286,28 +270,28 @@
 			};
 			name = Release;
 		};
-		EE0D19E11FA221AD0098D8F7 /* Debug */ = {
+		EE9E50F61FB607C1009059B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Shujaet_CSP/Info.plist;
+				INFOPLIST_FILE = ImpactCSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Shujaet-CSP";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.ImpactCSP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EE0D19E21FA221AD0098D8F7 /* Release */ = {
+		EE9E50F71FB607C1009059B5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Shujaet_CSP/Info.plist;
+				INFOPLIST_FILE = ImpactCSP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "CTEC.Shujaet-CSP";
+				PRODUCT_BUNDLE_IDENTIFIER = CTEC.ImpactCSP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE0D19C91FA221AD0098D8F7 /* Build configuration list for PBXProject "Shujaet_CSP" */ = {
+		EE9E50DE1FB607C1009059B5 /* Build configuration list for PBXProject "ImpactCSP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE0D19DE1FA221AD0098D8F7 /* Debug */,
-				EE0D19DF1FA221AD0098D8F7 /* Release */,
+				EE9E50F31FB607C1009059B5 /* Debug */,
+				EE9E50F41FB607C1009059B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE0D19E01FA221AD0098D8F7 /* Build configuration list for PBXNativeTarget "Shujaet_CSP" */ = {
+		EE9E50F51FB607C1009059B5 /* Build configuration list for PBXNativeTarget "ImpactCSP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE0D19E11FA221AD0098D8F7 /* Debug */,
-				EE0D19E21FA221AD0098D8F7 /* Release */,
+				EE9E50F61FB607C1009059B5 /* Debug */,
+				EE9E50F71FB607C1009059B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE0D19C61FA221AD0098D8F7 /* Project object */;
+	rootObject = EE9E50DB1FB607C1009059B5 /* Project object */;
 }
