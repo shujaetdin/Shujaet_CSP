@@ -16,6 +16,8 @@
 		EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */; };
 		EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAB1FE1766B00ABE2D3 /* Sounds */; };
 		EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */; };
+		EEF4CFB11FE17C0700ABE2D3 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFB01FE17C0700ABE2D3 /* Model */; };
+		EEF4CFB31FE17C5500ABE2D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFB21FE17C5500ABE2D3 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
 		EEF4CFAB1FE1766B00ABE2D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; sourceTree = "<group>"; };
 		EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		EEF4CFB01FE17C0700ABE2D3 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		EEF4CFB21FE17C5500ABE2D3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,7 @@
 		EE0D19C51FA221AD0098D8F7 = {
 			isa = PBXGroup;
 			children = (
+				EEF4CFB01FE17C0700ABE2D3 /* Model */,
 				EEF4CFAD1FE1772300ABE2D3 /* View */,
 				EE7BC8C61FE174DE006F89D3 /* Resources */,
 				EE0D19D01FA221AD0098D8F7 /* Shujaet_CSP */,
@@ -84,6 +89,7 @@
 		EE7BC8C61FE174DE006F89D3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EEF4CFB21FE17C5500ABE2D3 /* Utilities.swift */,
 				EE7BC8C71FE174F0006F89D3 /* Sounds */,
 			);
 			path = Resources;
@@ -165,6 +171,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF4CFB11FE17C0700ABE2D3 /* Model in Resources */,
 				EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */,
 				EE7BC8C51FE1746E006F89D3 /* GameController in Resources */,
 				EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */,
@@ -183,6 +190,7 @@
 				EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */,
 				EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */,
 				EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */,
+				EEF4CFB31FE17C5500ABE2D3 /* Utilities.swift in Sources */,
 				EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
