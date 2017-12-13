@@ -8,14 +8,23 @@
 
 import UIKit
 
-class GlobalImpactController: UIViewController {
 
+class GlobalImpactController: UIViewController {
+    @IBOutlet weak var groupsketch: UIImageView!
+    @IBOutlet weak var problemText: UILabel!
+    @IBOutlet weak var connectionText: UILabel!
+    
+   private func setupGlobalImpact() -> void
+   {
+    groupsketch.image = UIImage(named: "groupsketch")
+    self.problemText.text = "Many people suffer from Aids, but as computer programmers we can help find solution."
+    self.connectionText.text = "Mnay people from my native country of India suffer from aids."
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */; };
 		EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D19D31FA221AD0098D8F7 /* ViewController.swift */; };
-		EE0D19D91FA221AD0098D8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */; };
 		EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */; };
 		EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */; };
+		EE7BC8C51FE1746E006F89D3 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = EE7BC8C41FE1746E006F89D3 /* GameController */; };
 		EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D51FA221AD0098D8F7 /* Main.storyboard */; };
 		EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */; };
+		EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAB1FE1766B00ABE2D3 /* Sounds */; };
+		EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +23,12 @@
 		EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE0D19D31FA221AD0098D8F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE0D19D61FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE0D19DB1FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EE0D19DD1FA221AD0098D8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		EE7BC8C41FE1746E006F89D3 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
 		EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
+		EEF4CFAB1FE1766B00ABE2D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; sourceTree = "<group>"; };
+		EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,8 @@
 		EE0D19C51FA221AD0098D8F7 = {
 			isa = PBXGroup;
 			children = (
+				EEF4CFAD1FE1772300ABE2D3 /* View */,
+				EE7BC8C61FE174DE006F89D3 /* Resources */,
 				EE0D19D01FA221AD0098D8F7 /* Shujaet_CSP */,
 				EE0D19CF1FA221AD0098D8F7 /* Products */,
 			);
@@ -61,10 +66,7 @@
 				EE5A15F11FB3556B00EB041D /* Controller */,
 				EE0D19D11FA221AD0098D8F7 /* AppDelegate.swift */,
 				EE0D19D31FA221AD0098D8F7 /* ViewController.swift */,
-				EE0D19D51FA221AD0098D8F7 /* Main.storyboard */,
-				EE0D19D81FA221AD0098D8F7 /* Assets.xcassets */,
 				EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */,
-				EE0D19DD1FA221AD0098D8F7 /* Info.plist */,
 			);
 			path = Shujaet_CSP;
 			sourceTree = "<group>";
@@ -72,10 +74,36 @@
 		EE5A15F11FB3556B00EB041D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				EE7BC8C41FE1746E006F89D3 /* GameController */,
 				EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */,
 				EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		EE7BC8C61FE174DE006F89D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE7BC8C71FE174F0006F89D3 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE7BC8C71FE174F0006F89D3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4CFAB1FE1766B00ABE2D3 /* Sounds */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EEF4CFAD1FE1772300ABE2D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */,
+				EE0D19D51FA221AD0098D8F7 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */,
+				EE7BC8C51FE1746E006F89D3 /* GameController in Resources */,
+				EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */,
 				EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */,
 				EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */,
-				EE0D19D91FA221AD0098D8F7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
