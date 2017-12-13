@@ -27,7 +27,17 @@ public class StartScene : SKScene
     
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?)
     {
+        let currentTouch = touches.first
+        let touchLocation = currentTch?.location(in: self)
+        let touchedNode = self.atPoint(touchLocation!)
         
+        if(touchedNode.name == "start")
+        {
+            let gameOverScene = GameScene(size: size)
+            gameOvercene.scaleMode = scaleMode
+            ;et transitionType  SKTransition.flipHorizontal(withDuration: 1.0)
+            view?.presentScene(gameOverScene, transition: transitionType)
+        }
         
     }
 }

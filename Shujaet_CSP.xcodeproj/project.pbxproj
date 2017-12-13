@@ -11,13 +11,16 @@
 		EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0D19D31FA221AD0098D8F7 /* ViewController.swift */; };
 		EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19DA1FA221AD0098D8F7 /* LaunchScreen.storyboard */; };
 		EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */; };
-		EE7BC8C51FE1746E006F89D3 /* GameController in Resources */ = {isa = PBXBuildFile; fileRef = EE7BC8C41FE1746E006F89D3 /* GameController */; };
 		EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE0D19D51FA221AD0098D8F7 /* Main.storyboard */; };
 		EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */; };
 		EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAB1FE1766B00ABE2D3 /* Sounds */; };
 		EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */; };
 		EEF4CFB11FE17C0700ABE2D3 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = EEF4CFB01FE17C0700ABE2D3 /* Model */; };
 		EEF4CFB31FE17C5500ABE2D3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFB21FE17C5500ABE2D3 /* Utilities.swift */; };
+		EEF4CFB51FE17FE500ABE2D3 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFB41FE17FE500ABE2D3 /* ProgrammingViewController.swift */; };
+		EEF4CFB71FE181E500ABE2D3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFB61FE181E500ABE2D3 /* GameScene.swift */; };
+		EEF4CFB91FE181E900ABE2D3 /* LevelCompleteScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFB81FE181E900ABE2D3 /* LevelCompleteScene.swift */; };
+		EEF4CFBB1FE181EC00ABE2D3 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4CFBA1FE181EC00ABE2D3 /* StartScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +30,15 @@
 		EE0D19D61FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE0D19DB1FA221AD0098D8F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
-		EE7BC8C41FE1746E006F89D3 /* GameController */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameController; sourceTree = "<group>"; };
 		EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactController.swift; sourceTree = "<group>"; };
 		EEF4CFAB1FE1766B00ABE2D3 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; sourceTree = "<group>"; };
 		EEF4CFAE1FE177ED00ABE2D3 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
 		EEF4CFB01FE17C0700ABE2D3 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
 		EEF4CFB21FE17C5500ABE2D3 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EEF4CFB41FE17FE500ABE2D3 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
+		EEF4CFB61FE181E500ABE2D3 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EEF4CFB81FE181E900ABE2D3 /* LevelCompleteScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelCompleteScene.swift; sourceTree = "<group>"; };
+		EEF4CFBA1FE181EC00ABE2D3 /* StartScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +85,12 @@
 		EE5A15F11FB3556B00EB041D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EE7BC8C41FE1746E006F89D3 /* GameController */,
+				EEF4CFB61FE181E500ABE2D3 /* GameScene.swift */,
+				EEF4CFB81FE181E900ABE2D3 /* LevelCompleteScene.swift */,
+				EEF4CFBA1FE181EC00ABE2D3 /* StartScene.swift */,
 				EE5A15F21FB3559600EB041D /* AlgorithmViewController.swift */,
 				EE9E50FA1FB60929009059B5 /* GlobalImpactController.swift */,
+				EEF4CFB41FE17FE500ABE2D3 /* ProgrammingViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,7 +182,6 @@
 			files = (
 				EEF4CFB11FE17C0700ABE2D3 /* Model in Resources */,
 				EEF4CFAC1FE1766B00ABE2D3 /* Sounds in Resources */,
-				EE7BC8C51FE1746E006F89D3 /* GameController in Resources */,
 				EEF4CFAF1FE177ED00ABE2D3 /* StarField.sks in Resources */,
 				EE9E50D71FB60785009059B5 /* Main.storyboard in Resources */,
 				EE0D19DC1FA221AD0098D8F7 /* LaunchScreen.storyboard in Resources */,
@@ -187,10 +195,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF4CFB51FE17FE500ABE2D3 /* ProgrammingViewController.swift in Sources */,
 				EE0D19D41FA221AD0098D8F7 /* ViewController.swift in Sources */,
+				EEF4CFB91FE181E900ABE2D3 /* LevelCompleteScene.swift in Sources */,
 				EE5A15F31FB3559600EB041D /* AlgorithmViewController.swift in Sources */,
 				EE9E50FB1FB60929009059B5 /* GlobalImpactController.swift in Sources */,
 				EEF4CFB31FE17C5500ABE2D3 /* Utilities.swift in Sources */,
+				EEF4CFB71FE181E500ABE2D3 /* GameScene.swift in Sources */,
+				EEF4CFBB1FE181EC00ABE2D3 /* StartScene.swift in Sources */,
 				EE0D19D21FA221AD0098D8F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
