@@ -39,7 +39,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             {
                 let currentInvader :Invader = Invader()
                 let halfWidth : CGFloat = currentInvader.size.width / 2
-                let xPosition : CGFloat = size.width / 2 - halfWidth - (CGFloat(numberOfInvaders) * currentInvader.size.width) + 10
+                let xPosition : CGFloat = size.width - halfWidth - (CGFloat(numberOfInvaders) * currentInvader.size.width) + 10
                 
                 currentInvader.position = CGPoint(x: xPosition + (currentInvader.size.width + CGFloat(10)) * CGFloat(invaderCol - 1), y: CGFloat(self.size.height - CGFloat(invaderRow) * 46))
                 currentInvader.invaderRow = invaderRow
@@ -68,6 +68,14 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             //Closure parameters
             node, stop in
+            l invaer = node as! SKPSpriteNode
+            let invaderHalfWidth = invader.size.width / 2
+            invader.position.x -= CGFloat(self.invaderSpeed)
+            if(invader.position.x > self.rightBnds - invaderHalfWidth || invader.position.x < self.leftounds +
+            invaderHalfWidth)
+                {
+                    changeDrection = true
+                }
             
         }
         
@@ -77,11 +85,12 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             self.enumerateChildNodes(withName: "invader")
             {
                 node, stop in
-            
-            }
+                
+                let ivader = node as! SKPSpiritNode
+                invader.position.y -= CGFloat(10)            }
             
         }
-        
+        changeDirection = false
     }
     
     private func invokeInvaderFire() -> Void
@@ -125,7 +134,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void
     {
-       
+        player.fireBulllet(scene: self)
     }
     
     override public func update(_ currentTime: CFTimeInterval) -> Void
