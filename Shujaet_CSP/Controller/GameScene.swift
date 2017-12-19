@@ -87,8 +87,8 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             {
                 node, stop in
                 
-                let ivader = node as! SKPSpiritNode
-                invader.position.y -= CGFloat(10)            }
+                let invader = node as! SKPSpiritNode
+                Invader.position.y -= CGFloat(10)            }
             
         }
         changeDirection = false
@@ -106,12 +106,27 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     func newGame() -> Void
     {
-        
+        let newGameScene = StartScene(size: size)
+        newGameScene.scaleMode = scaleMode
+        let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+        view?.presentScene(newGameScene,transition: transitionType)
     }
     
     func levelComplete() -> Void
     {
-        
+        if(gameLevel <= maxLevels)
+        {
+            let levelCompleteScene = LevelCompleteScene(size: size)
+            levelCompleteScene.scaleMode = scaleMode
+            let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
+            view?.presentScene(levelCompleteScene, transition: transitionType)
+        }
+        else
+        {
+            gameLevel = 1
+            newGame()
+        }
+    }
     }
     
     

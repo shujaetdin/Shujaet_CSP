@@ -22,12 +22,12 @@ public class Invader: SKSpriteNode
         super.init(texture: texture, color: SKColor.clear, size: texture.size())
         self.name = "invader"
         
-        self.physicsBody =
-            SKPhysicsBody(texture: self.texture!, size: self.size)
+        self.physicsBody = SKPhysicsBody(texture: self.texture!, size: texture.size())
         self.physicsBody?.isDynamic = true
-        self.physcsBody?.usesPrecisionCollisionDetection = alse
+        self.physcsBody?.usesPrecisionCollisionDetection = false
         self.physicsBody?.categoryBitMask = CollisionCategories.Invader
-        self.physicsBody?.contactTestBitMask = CollisionCategorie.PlayerBullet | CollisionCategories.Player
+        self.physicsBody?.contactTestBitMask = CollisionCategorie.PlayerBullet |
+            CollisionCategories.Player
         self.physicsBody?.collisionBitMask = CollisionCategories.EdgeBody
     }
     
@@ -41,6 +41,9 @@ public class Invader: SKSpriteNode
     //MARK: - Invader methods 
     public func fireBullet(scene: SKScene) -> Void
     {
+        let bullet = InvaderLaser(imageName: "laser", bulletSound: nil)
+        bullet.position.x = self.position.x
+        ullet.position.y = elf.position.y - self.size.height
 
     }
 }
