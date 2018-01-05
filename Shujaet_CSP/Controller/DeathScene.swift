@@ -7,19 +7,37 @@
 //
 
 import UIKit
-importSpriteKit
+import SpriteKit
 
 class DeathScene : SKScene
 {
     override public func didMove(to view: SKView) -> Void
     {
-        self.backgroiundColor SKColor.green
+        self.backgroundColor = SKColor.green
         
-        let gameOver = SKlabelNode(tet: "you have died")
+        let gameOver = SKLabelNode(text: "you have died")
         gameOver.name = "game over"
         gameOver.fontSize = 65
-        gameOver.fontColor= SKColor.red
+        gameOver.fontColor = SKColor.red
         gameOver.position = CGPoint(x: frame.midX, y: frame.midY)
         addChild(gameOver)
     }
+
+    override public func touchesBegan(_touches: Set<UITouch>, with event: UIEvent?) -> Void
+    {
+        let touch = touches.first
+        let touchLocation = touch?.location(in: self)
+        let touchedNode = self.atPoint(touchLocation!)
+        if(touchedNode.name == "game over")
+        {
+            let gameOverScene = GameScene(size: size)
+            gameOverScene.scaleMode = scaleMode
+            let transitionType
+        }
+    }
+
+
+
+
+
 }

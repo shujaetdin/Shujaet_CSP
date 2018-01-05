@@ -58,7 +58,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
 
     private func setupPlayer() -> Void
     {
-        player.position = CGpoint(x:self.frame.midX, y:player.size.height/2 + 10)
+        player.position = CGPoint(x:self.frame.midX, y:player.size.height/2 + 10)
         addChild(player)
     }
     
@@ -69,13 +69,13 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         {
             //Closure parameters
             node, stop in
-            l invaer = node as! SKPSpriteNode
+            let invader = node as! SKSpriteNode
             let invaderHalfWidth = invader.size.width / 2
             invader.position.x -= CGFloat(self.invaderSpeed)
-            if(invader.position.x > self.rightBnds - invaderHalfWidth || invader.position.x < self.leftounds +
+            if(invader.position.x > self.rightBounds - invaderHalfWidth || invader.position.x < self.leftBounds +
             invaderHalfWidth)
                 {
-                    changeDrection = true
+                    changeDirection = true
                 }
             
         }
@@ -87,8 +87,8 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             {
                 node, stop in
                 
-                let invader = node as! SKPSpiritNode
-                Invader.position.y -= CGFloat(10)            }
+                let invader = node as! SKSpriteNode
+                invader.position.y -= CGFloat(10)            }
             
         }
         changeDirection = false
@@ -97,12 +97,21 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     private func invokeInvaderFire() -> Void
     {
         
+        
+            
+        }
+        
+
+        
+                
+        
     }
     
     func fireInvaderBullet() -> Void
     {
-       
-    }
+        let fireBullet = SKAction.run()
+        {
+       self.fireInvaderBullet    }
     
     func newGame() -> Void
     {
@@ -155,7 +164,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     override public func update(_ currentTime: CFTimeInterval) -> Void
     {
-        
+        moveInvaders()
     }
     
     override public func didSimulatePhysics()
@@ -199,7 +208,7 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         if ((firstBody.categoryBitMask & CollisonCategories.Invader != 0) &&
             (secondBody.categoryBitMask & CollisonCategories.PLayerBullet != 0))
         {
-            print(
+            print("Invader and Player Bullet Contact")
         }
         
         
@@ -214,4 +223,63 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         print("Invader and Player Collision Contact")
     }
     
+        if ((firstBody.egoryBitMask & CollisionCategories.Player != 0) &&
+        (secondBody.cagoryBitMsk & CollisionCategories.InvaderLaser != 0))
+        {
+            player.die()
+        }
+        
+        if ((firstBody.categoryBitMask & Collisioncategories.Invader != 0)) &&
+        (secondBody.categoryBitMask & CollisionCategories.Player != 0))
+        {
+            player.kill()
+        }
+
+        if ((firstBody.categoryBitMask & CollisionCategories.Invader != 0) &&
+        (secondBody.categoryBitMask & CollisonCategories.Playerlaser != 0))
+        {
+            return
+        }
+
+        let theInvader = firstBody.node as! Invader
+        let newInvaderRow = theInvader.invaderRow - 1
+        let newInvaderCol = theInvader.invaderCol
+        let(newInvaderRow >= 1)
+    {
+        self.enumerateChildNodes(withName: "invader")
+        {
+            node, sop in
+            let invader = node as! Invader
+            if invader.invaderRow == newInvaderRow && invaderinvaderCol == newINvaderCol
+            {
+                self.invadersThatCanFire.append(invader)
+                stop.pointee = true
+            }
+        }
 }
+        let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
+if(invaderIndex != nil)
+{
+    invadersThatCanFire.remove(at: invaderIndex!)
+        }
+    theInvader.removeFromParent()
+    secondBody.node?.removeFromParent()
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
